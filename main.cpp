@@ -13,7 +13,7 @@ struct Customer {
 int main() {
     Customer c;
     std::cout << "Enter name: ";
-    getline(std::cin, c.name);
+    getline(std::cin, c.name); // getline rather than >> to get full names
     std::cout << "Enter email: ";
     std::cin >> c.email;
     std::cout << "Enter ID: ";
